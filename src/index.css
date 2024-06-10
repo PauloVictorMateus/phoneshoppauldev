@@ -1,0 +1,20 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #f4f5f6; /* cor de fundo padrão */
+  color: #1c1d1e; /* cor do texto padrão */
+}
+
+.dark-mode {
+  background-color: #121212; /* cor de fundo para o modo escuro */
+}
